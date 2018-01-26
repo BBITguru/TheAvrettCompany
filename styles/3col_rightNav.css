@@ -1,0 +1,106 @@
+h1{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: #8F0000;
+	margin: 0px;
+	line-height: 16px;
+	padding-top: 5px;
+	padding-left: 35px;
+	padding-right: 10px;
+}
+h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	color: #333333;
+	font-weight: normal;
+}
+
+ul{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 14px;
+	list-style-type: square;
+}
+
+ul ul{
+	list-style-type: disc;
+	list-style-image: none;
+	list-style-position: outside;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #333333;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#masthead{
+	width: 800px;
+	background-image: url(images/Layout/header.jpg);
+}
+.top {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 130%;
+	color: #000000;
+	background-image: url(images/Layout/header.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-bottom-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	margin: 0em;
+	padding-bottom: 62px;
+}
+body {
+	background-image: url(images/Layout/background_grid.jpg);
+	background-repeat: repeat;
+}
+table {
+	background-color: #FFFFFF;
+}
+
+
+/************* #globalNav styles **************/
+
+#globalNav{
+	color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	font-weight: bold;
+	font-size: 8px;
+}
+
+#globalNav a {
+	font-size: 12px;
+	padding: 0 4px 0 0;
+	color: #FFFFFF;
+	line-height: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	padding-left: 35px;
+	padding-right: 10px;
+}
